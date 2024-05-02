@@ -7,9 +7,10 @@ import { GradosModule } from './grados/grados.module';
 import { AsignaturasModule } from './asignaturas/asignaturas.module';
 import { TurnosModule } from './turnos/turnos.module';
 import { SeccionesModule } from './secciones/secciones.module';
+import { EmpleadosModule } from './empleados/empleados.module';
 
 @Module({
-  imports: [CargosModule, ProfesionesModule, GradosModule, AsignaturasModule, TurnosModule, SeccionesModule],
+  imports: [CargosModule, ProfesionesModule, GradosModule, AsignaturasModule, TurnosModule, SeccionesModule, EmpleadosModule],
   controllers: [AppController],
   providers: [AppService],
 })
